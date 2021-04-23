@@ -1,0 +1,170 @@
+html, body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    background-position: bottom;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+
+/*-------------Header------------*/
+
+h1 {
+    display: none;
+}
+
+h1, h2, h3, h4, h5, figure, aside, p {
+    margin: 0;
+    padding: 0;
+}
+
+/*for fixed menu*/
+main, footer {
+    position: relative;
+    top: 3.13rem;
+    z-index: 1;
+    background-color: black;
+}
+
+
+a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+header {
+    height: 3.13rem;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background-color: black;
+   display: flex;
+    justify-content: space-between;
+    align-items: center; 
+  
+}
+
+header img {
+    height: 2.27rem;
+    padding: 0 0.45rem;
+}
+
+ul {
+    margin: 0 auto;
+}
+
+li {
+    display: inline-block;
+    padding: 0 0.45rem;
+}
+
+/*--------BANNER-------------*/
+
+#banner {
+    background-image: url("./images/img-mission-background.jpg");
+    background-position: center;
+    background-size: auto;
+    height: 31.81rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    max-width: 54.55rem;
+    margin: 0 auto;
+}
+
+#banner h2, #banner h4 {
+    background-color: black;
+    width: 100%;
+    padding: 0.45rem;
+}
+
+/*----------FEATURED--------------*/
+#featured {
+  max-width: 45.45rem;
+  margin: 3.13rem auto;
+  line-height: 1.5;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#featured img {
+    width: 13.64rem;
+    margin: 0.45rem;
+    display: block;
+}
+
+figcaption {
+    margin: 0.45rem;
+}
+
+figure {
+    padding: 0.23rem;
+}
+
+/*----------LOCATIONS----------*/
+
+#locations {
+    background-image: url("./images/img-locations-background.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 22.73rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 54.55rem;
+    margin: 0 auto;
+}
+
+#locations h2 {
+
+}
+
+.cards {
+    background-color: black;
+    min-width: 13.64rem;
+    margin: 0.68rem 0.91rem;
+    padding: 0.68rem;
+}
+
+.cards h3, .cards p {
+    padding: 0.68rem;
+    opacity: 1;
+}
+
+.locations {
+    width: 100%;
+}
+
+/*-------CONTACT-------------*/
+
+#contact {
+    min-height: 9.09rem;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+}
+
+#contact h2, #contact h5, #contact p {
+    padding: 1rem;
+}
+
+/*-------FOOTER----------*/
+
+footer {
+    padding: 1rem;
+    text-align: left;
+}
